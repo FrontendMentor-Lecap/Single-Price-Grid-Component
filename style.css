@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --lgt-gray: hsl(204, 43%, 93%);
+    --gr-blue: hsl(218, 22%, 67%);
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: var(--lgt-gray);
+}
+
+main {
+    margin: 10% 5%;
+    box-shadow: 2px 2px 2px 2px red;
+}
+
+header {
+    padding: 1rem;
+    background-color: white;
+}
+
+.header__title {
+    color: var(--cyan);
+    margin-bottom: 1rem;
+}
+
+.header__subtitle {
+    color: var(--yellow);
+    margin-bottom: 1rem;
+}
+
+.header__paragraph {
+    color: var(--gr-blue);
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+main footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription {
+    background-color: var(--cyan);
+    padding: 1rem;
+    height: 14.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subscription__price {
+    display: flex;
+    align-items: center;
+}
+
+.subscription__price .price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 0.5em;
+}
+
+.subscription__price .price__month {
+    color: hsl(183, 61%, 65%);
+}
+
+.subscription a {
+    display: block;
+    text-align: center;
+    background-color: var(--yellow);
+    border-radius: .5rem;
+    padding: 1em ;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    justify-self: flex-end;
+}
+
+.why__us {
+    background-color: hsl(183, 61%, 65%);
+    padding: 1rem;
+    height: 14.2rem;
+}
+
+.why__us ul {
+    list-style-type: none;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    margin-top: 1rem;
+
+}
